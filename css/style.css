@@ -4,10 +4,15 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #fff;
+}
 .container{
     margin: 0 auto;
     max-width: 1140px;
 }
+
+/*------- Header --------------*/
 .header{
     display: flex;
     flex-direction: row;
@@ -76,6 +81,8 @@ form input{
     height: 0;
     border-bottom: 1px solid #e6e6e6;
 }
+
+/*--------- Nav -----------*/
 .main-nav{
     display: flex;
     align-items: center;
@@ -91,6 +98,8 @@ form input{
 .main-nav a:not(:last-child){
     margin-right: 45px;
 }
+
+/*---------Slider--------*/
 .slider{
     background-color: #e8e8e8;
 }
@@ -112,5 +121,82 @@ form input{
     font-size: 40px;
 }
 .big-text + p > span{
+    color: #f16d7f;
+}
+
+/*---------Category-----------*/
+
+.category{
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 920px;
+    
+}
+.category-items{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.category-text{
+    position: absolute;
+    top: 25px;
+    background-color: #fff;
+    padding: 20px;
+}
+.category-text a{
+    text-decoration: none;
+    color: #222222;
+}
+.category-text a p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.category-text a p span{
+    font-size: 30px;
+    color: #f16d7f;
+}
+
+/* ----- Copyrights ------*/
+
+.copyrights{
+    background-color: #e6e6e6;
+    min-height: 80px;
+}
+.copyrights-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    background-color: #fff;
+    text-align: center;
+    padding: 5px 10px 3px 10px;
+}
+.social:not(:last-child){
+    margin-right: 10px;
+    
+}
+.social:last-child{
+    padding: 5px;
+}
+
+.social a i{
+    color: #b2b2b2;
+}
+.twitter{
+    padding: 0px;
+    background-color: #e6e6e6;
+}
+.twitter a i{
     color: #f16d7f;
 }
