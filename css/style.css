@@ -157,7 +157,80 @@ form input{
     font-size: 30px;
     color: #f16d7f;
 }
+/* --- Subscribe --- */
 
+.subscribe-main{
+    background: url(../img/img-first-page/subscribe-background.jpg) no-repeat, #ccc;
+    min-height: 438px;
+    background-size: cover;
+    background-position: 50% 20%;
+    background-blend-mode: overlay;
+    background-size: 110%;
+    
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    
+}
+.subscribe-left{
+    width: 585px;
+    padding-top: 100px;
+}
+.reviews{
+    display: flex;
+    justify-content: space-around;
+}
+.review-foto{
+    width: 83px;
+    height: 83px;
+    background-image: url(../img/img-first-page/ellipse.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50% 20%;
+    margin-right: 15px;
+}
+blockquote{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    font-weight: 700;
+    max-width: 390px;
+}
+
+
+.spacer{
+    width: 1px;
+    background-color: #e3e3e3;
+    height: 438px;
+}
+
+/* ---- Footer ---- */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+footer section{
+    max-width: 458px;
+}
+footer section p{
+    color: #898989;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-menu h3{
+    color: #f16d7f;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: #898989;
+
+}
 /* ----- Copyrights ------*/
 
 .copyrights{
