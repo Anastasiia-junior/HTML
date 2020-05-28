@@ -399,8 +399,8 @@ blockquote{
 .subscribe-form{
     height: 46px;
 }
-.subscribe-form .input{
-    height: inherit;
+label .input{
+    height: 46px;
     background-color: #e1e1e1;
     border-bottom-left-radius: 23px;
     border-top-left-radius: 23px;
