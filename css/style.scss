@@ -491,6 +491,7 @@ footer section p{
     color: #b2b2b2;
 }
 //Shopping-Cart page
+//first container
 .new-arrivals{
     background-color: #f8f3f4;
     height: 150px;
@@ -515,5 +516,25 @@ footer section p{
     .active{
         color: #f16d7f;
         font-weight: 700;
+    }
+}
+// Forms
+.forms{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.forms-items{
+    display: flex;
+    flex-direction: column;
+    p{
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+    input{
+        height: 45px;
+        border: 1px solid #e6e6e6;
     }
 }

@@ -81,6 +81,39 @@
                 </tr>
             </table>
         </div>
+        <div class="forms container">
+            <div class="forms-items">
+                <p>SHIPPING ADRESS</p>
+                <form action="get">
+                    <input list="country" name="my-country" placeholder="Bangladesh">
+                    <datalist id="country">
+                        <option label="Bangladesh" value="Bangladesh"></option>
+                        <option value="Moskau" label="Moskau"></option>
+                    </datalist>
+                    <br><input type="text" name="State" placeholder="State">
+                    <br><input type="text" name="Postcode" placeholder="Postcode">
+                    <br><input type="submit" value="GET A QUOTE">
+                </form>
+            </div>
+            <div class="forms-items">
+                <p>COUPON DISCOUNT</p>
+                <form action="get">
+                    <label for="coupon"><p>Enter your coupon code if you have one</p></label>
+                    <input type="text" id="coupon" placeholder="State">
+                    <input type="button" value="APPLY COUPON">
+                </form>
+            </div>
+            <div class="forms-items">
+                <p>Sub total         <span>$900</span></p>
+                <p>GRAND TOTAL      <span>$900</span></p>
+                <div class="hr"></div>
+                <div class="">
+                    <button>proceed to checkout </button>
+                </div>
+            </div>
+            
+        </div>
+        
     </main>
     <!-- Subscribe -->
     <div class="subscribe-main">
