@@ -45,75 +45,90 @@
                 </div>
             </div>
         </div>
-        <div class="table container">
-            <table>
-                <tr>
-                    <th>Product Details</th>
-                    <th>unite Price</th>
-                    <th>Quantity</th>
-                    <th>shipping</th>
-                    <th>Subtotal</th>
-                    <th>ACTION</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+        <!-- Shopping Cart  -->
+        <div class="shopping-cart container">
+            <div class="shopping-cart-header">
+                <div class="block1">PRODUCT DETAILS</div>
+                <div>UNITE PRICE</div>
+                <div>QUANTITY</div>
+                <div>SHIPPING</div>
+                <div>SUBTOTAL</div>
+                <div>ACTION</div>
+            </div>
+            <div class="cart-items cart-item1">
+                <div class="block1">
+                    <div><img src="img/img-shopping-cart/Без-имени-1.jpg" alt=""></div>
+                    <div class="text"><h3>Mango People T-shirt</h3><p><span>Color:</span>Red <br><span>Size:</span>XII</p></div>
+                </div>
+                <div>$150</div>
+                <div><input type="text" value="2"></div>
+                <div>FREE</div>
+                <div>$300</div>
+                <div><i class="fas fa-times-circle"></i></div>
+            </div>
+            <div class="cart-items cart-item2">
+                <div class="block1">
+                    <div><img src="img/img-shopping-cart/Без-имени-2.jpg" alt=""></div>
+                    <div><h3>Mango People T-shirt</h3><p><span>Color:</span>Red <br><span>Size:</span>XII</p></div>
+                </div>
+                <div>$150</div>
+                <div><input type="text" value="2"></div>
+                <div>FREE</div>
+                <div>$300</div>
+                <div><i class="fas fa-times-circle"></i></div>
+            </div>
+            <div class="cart-items cart-item3">
+                <div class="block1">
+                    <div><img src="img/img-shopping-cart/Без-имени-3.jpg" alt=""></div>
+                    <div><h3>Mango People T-shirt</h3><p><span>Color:</span>Red <br><span>Size:</span>XII</p></div>
+                </div>
+                <div>$150</div>
+                <div><input type="text" value="2"></div>
+                <div>FREE</div>
+                <div>$300</div>
+                <div><i class="fas fa-times-circle"></i></div>
+            </div>
+            <div class="cart-buttons">
+                <div class="button-left">
+                    Clear shopping cart
+                </div>
+                <div class="button-right">
+                    continue shopping
+                </div>
+            </div>
         </div>
+        
+        <!--  Forms -->
         <div class="forms container">
             <div class="forms-items">
-                <p>SHIPPING ADRESS</p>
+                <h2>SHIPPING ADRESS</h2>
                 <form action="get">
-                    <input list="country" name="my-country" placeholder="Bangladesh">
+                    <input required list="country" name="my-country" placeholder="Bangladesh">
                     <datalist id="country">
                         <option label="Bangladesh" value="Bangladesh"></option>
                         <option value="Moskau" label="Moskau"></option>
                     </datalist>
-                    <br><input type="text" name="State" placeholder="State">
-                    <br><input type="text" name="Postcode" placeholder="Postcode">
-                    <br><input type="submit" value="GET A QUOTE">
+                    <br><input required type="text" name="State" placeholder="State">
+                    <br><input required type="number" name="Postcode" placeholder="Postcode">
+                    <br><button>GET A QUOTE</button>
                 </form>
             </div>
             <div class="forms-items">
-                <p>COUPON DISCOUNT</p>
+                <h2>COUPON DISCOUNT</h2>
                 <form action="get">
                     <label for="coupon"><p>Enter your coupon code if you have one</p></label>
                     <input type="text" id="coupon" placeholder="State">
-                    <input type="button" value="APPLY COUPON">
+                    <br><button>APPLY COUPON</button>
                 </form>
             </div>
             <div class="forms-items">
-                <p>Sub total         <span>$900</span></p>
-                <p>GRAND TOTAL      <span>$900</span></p>
+                <p>Sub total <i>$900</i></p> 
+                <h2>GRAND TOTAL      <span><i>$900</i></span></h2>
                 <div class="hr"></div>
-                <div class="">
-                    <button>proceed to checkout </button>
-                </div>
+                <button>proceed to checkout </button>
             </div>
             
         </div>
-        
     </main>
     <!-- Subscribe -->
     <div class="subscribe-main">
