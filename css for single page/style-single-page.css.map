@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACI,OADG,CACH,KAAK,CAAA;EACD,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAOtB;;AAVL,AAIQ,OAJD,CACH,KAAK,CAGD,CAAC,CAAA;EACG,SAAS,EAAE,MAAM;CACpB;;AANT,AAOQ,OAPD,CACH,KAAK,CAMD,IAAI,CAAA;EACA,KAAK,EAAE,OAAO;CACjB;;AAGT,AAAA,cAAc,CAAA;EACV,gBAAgB,EAAE,OAAO;CAC5B;;AACD,AAAA,WAAW,CAAA;EACP,gBAAgB,EAjBP,OAAO;CAkBnB",
+    "sources": [
+        "style-single-page.scss"
+    ],
+    "names": [],
+    "file": "style-single-page.css"
+}

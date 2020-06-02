@@ -1,0 +1,19 @@
+$color-pink: #f16d7f;
+.header{
+    .logo{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 1.5rem;
+        }
+        span{
+            color: #f16d7f;
+        }
+    }
+}
+.browse-button{
+    background-color: #f9f9f9;
+}
+.my-account{
+    background-color: $color-pink;
+}

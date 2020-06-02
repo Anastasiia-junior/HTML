@@ -1,0 +1,25 @@
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo p {
+  font-size: 1.5rem;
+}
+
+.header .logo span {
+  color: #f16d7f;
+}
+
+.browse-button {
+  background-color: #f9f9f9;
+}
+
+.my-account {
+  background-color: #f16d7f;
+}
+/*# sourceMappingURL=style-single-page.css.map */
