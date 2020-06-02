@@ -16,7 +16,7 @@
                 <img src="img/logo.png" alt="logo">
                 <p>BRAN<span>D</span></p>
             </div>
-            <form action="" class="d-lg-flex ">
+            <form action="" class="d-lg-flex align-items-center">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <button class="rounded-0 btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse</button>
@@ -42,15 +42,17 @@
                         <a class="dropdown-item" href="#">Jackets/vests</a>
                       </div>
                     </div>
-                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    <input type="text" class="rounded-0 form-control" aria-label="Text input with dropdown button">
                   </div>
-                <button class="search"><i class="fas fa-search"></i></button>
+                  <button type="button" class="pl-2 close" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-search"></i></span>
+                  </button>
             </form>
             <div>
                 <img src="img/cart.png" class="cart" alt="cart">
-                <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="rounded-0 btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
+                <div class=" btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="account rounded-0 btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      My Account
                     </button>
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                       <a class="dropdown-item" href="#">Dropdown link</a>
@@ -62,41 +64,48 @@
         </div>
     </div>
     <hr>
+    <!-- Navigation -->
     <div class="container">
-        <div class="row d-lg-flex justify-content-center">
-            <ul class="nav text-uppercase">
+        <div class="main-nav row d-lg-flex justify-content-center">
+            <ul class=" nav text-uppercase">
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
+                    <a class="font-weight-bold nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Man</a>
+                  <a class="font-weight-bold text-dark nav-link active" href="#">Man</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Women</a>
+                  <a class="font-weight-bold text-dark nav-link" href="#">Women</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">kids</a>
+                  <a class="font-weight-bold text-dark nav-link" href="#">kids</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Accosseries</a>
+                    <a class="font-weight-bold text-dark nav-link" href="#">Accosseries</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">featured</a>
+                    <a class="font-weight-bold text-dark nav-link" href="#">featured</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">hot deals</a>
+                    <a class="font-weight-bold text-dark nav-link" href="#">hot deals</a>
                   </li>
               </ul>
         </div>
     </div>
+    <!-- Slider -->
     <div>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Fluid jumbotron</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <div class="slider pb-0 pt-0 jumbotron jumbotron-fluid">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+              <div class="slider-text">
+                <div class="slider-line"></div>
+                <h1 class="mb-0 display-4">THE BRAND</h1>
+                <p class="mt-0 lead">OF LUXERIOUS <span>FASHION</span></p>
+              </div>
+              <img src="img/img-first-page/man2.jpg" alt="">
             </div>
           </div>
     </div>
+    <!-- Products-->
     <div class="container">
         <div class="products row d-flex flex-column flex-wrap">
             <div class="products-item rounded-0 card bg-dark text-white">
@@ -133,31 +142,60 @@
               </div>
         </div>
     </div>
+    <!-- Features -->
+    <div class="products-header container">
+      <h2>Fetured Items</h2>
+      <p>Shop for items based on what we featured in this week</p>
+    </div>
     <div class="container">
-        <div class="row">
+        <div class="row mb-4">
             <div class="card-deck">
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                   <img src="img/img-first-page/feature-1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with .</p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                   <img src="img/img-first-page/featured-2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting .</p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                   <img src="img/img-first-page/featured-3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with .</p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                     <img src="img/img-first-page/featured-4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -166,30 +204,54 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="card-deck">
-                <div class="card">
+        <div class="row mb-4">
+            <div class=" card-deck">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                   <img src="img/img-first-page/featured-5.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with .</p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                   <img src="img/img-first-page/featured-6.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has .</p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                   <img src="img/img-first-page/featured-7.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider .</p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="product card">
+                  <div class="product-hover">
+                    <button>
+                        <img src="" alt="buy">
+                        Add to Cart
+                    </button>
+                  </div>
                     <img src="img/img-first-page/featured-8.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -199,9 +261,10 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+    <div class="container d-flex justify-content-center ">
+        <button type="button" class="rounded-0 btn btn-secondary btn-lg">Large button</button>
     </div>
+    
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
