@@ -872,6 +872,7 @@ footer section p {
 
 .header .logo p {
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 .header .logo span {
@@ -886,9 +887,43 @@ footer section p {
   background-color: #f16d7f;
 }
 
+.my-account a {
+  color: #ffffff;
+}
+
 .hr {
   height: 0;
   border-bottom: 1px solid #e6e6e6;
+}
+
+.nav a {
+  color: #222222;
+}
+
+.new-arrivals div {
+  height: inherit;
+}
+
+.new-arrivals p {
+  color: #f16d7f;
+  font-size: 1.5rem;
+}
+
+.breadscrumb-bgc {
+  background-color: inherit;
+}
+
+.breadscrumb-bgc .active {
+  color: #f16d7f;
+}
+
+.breadscrumb-bgc a {
+  color: #222222;
+}
+
+.breadscrumb-bgc a:hover {
+  text-decoration: none;
+  color: #222222;
 }
 
 .img-position {
@@ -897,6 +932,52 @@ footer section p {
 
 .carousel-bg {
   background-color: #f7f7f7;
+}
+
+.discription {
+  background-color: #fff;
+  height: 728px;
+  padding-top: 50px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 1;
+}
+
+.discription .discription-content {
+  height: 538px;
+  width: 615px;
+  text-align: center;
+}
+
+.discription .discription-content .discription-black-text {
+  color: #7a7a7a;
+}
+
+.discription .discription-content .discription-text {
+  color: #b9b9b9;
+}
+
+.discription .discription-content .discription-text span {
+  color: #222222;
+}
+
+.discription .discription-content button {
+  background-color: #ffffff;
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
+}
+
+.pagination {
+  height: 50px;
+}
+
+.price {
+  color: #f16d7f;
+  font-size: 1.8rem;
+}
+
+#select-color {
+  width: 10rem;
 }
 
 .img-you-like {
@@ -911,16 +992,5 @@ footer section p {
 
 .p-like-also {
   font-size: 1.6rem;
-}
-
-.discription {
-  height: 728px;
-  padding-bottom: 100px;
-  margin-top: -30px;
-}
-
-.discription .discription-content {
-  height: 538px;
-  width: 615px;
 }
 /*# sourceMappingURL=style-single-page.css.map */

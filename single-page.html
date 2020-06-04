@@ -20,7 +20,7 @@
                     <p>BRAN<span>D</span></p>
                 </div>
             </div>
-            <div class="col-xl-5 offset-1 ">
+            <div class="search-input col-xl-5 offset-1 ">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <button class="browse-button btn btn-outline-secondary dropdown-toggle"  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse</button>
@@ -32,16 +32,15 @@
                         <a class="dropdown-item" href="#">Separated link</a>
                       </div>
                     </div>
-                    <input type="text" class="form-control" placeholder="Search for item" aria-label="Text input with dropdown button">
-                  </div>
+                      <input type="text" class="form-control" placeholder="Search for item" aria-label="Text input with dropdown button">
+                      
+                </div>
             </div>
             <div class="d-flex align-items-start col-xl-3 offset-2">
                 <img class="mr-3 mt-2" src="img/cart.png" alt="cart">
                 <div class="my-account dropdown">
                     <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      My Account
-                    </a>
-                  
+                      My Account</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
@@ -53,39 +52,39 @@
     </div>
     <div class="hr"></div>
     <div class="container">
-      <nav class="nav d-lg-flex justify-content-center">
-        <a class="nav-link active" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <nav class="nav font-weight-bold mt-2 mb-2 d-lg-flex justify-content-center text-uppercase">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">man</a>
+        <a class="nav-link" href="#">women</a>
+        <a class="nav-link" href="#">kids</a>
+        <a class="nav-link" href="#">accoseriese</a>
+        <a class="nav-link" href="#">featured</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Hot deals</a>
       </nav>
     </div>
     <div class="new-arrivals">
-      <div class="container d-flex justify-content-between">
-        <p>New arrivals</p>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p class="text-uppercase font-weight-bold">New arrivals</p>
+        <nav  aria-label="breadcrumb">
+          <ol class="breadscrumb-bgc text-uppercase breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Library</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Data</li>
+            <li class="breadcrumb-item"><a href="#">MEN</a></li>
+            <li class="breadcrumb-item font-weight-bold active" aria-current="page">new arrivals</li>
           </ol>
         </nav>
       </div>
     </div>
     <div class="container-fluid">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleControls" class=" carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-bg carousel-item active">
-            <img src="img/img-single-page/slider1.jpg" class="img-position d-block w-25" alt="...">
+            <img src="img/img-single-page/slider1.jpg" class="img-position d-block " alt="...">
+          </div>
+          <div class=" carousel-bg carousel-item">
+            <img src="img/img-single-page/slider1.jpg" class="img-position d-block" alt="...">
           </div>
           <div class="carousel-bg carousel-item">
-            <img src="img/img-single-page/slider1.jpg" class="img-position d-block w-25" alt="...">
-          </div>
-          <div class="carousel-bg carousel-item">
-            <img src="img/img-single-page/slider1.jpg" class="img-position d-block w-25" alt="...">
+            <img src="img/img-single-page/slider1.jpg" class="img-position d-block" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -101,59 +100,73 @@
     <!-- discription -->
     <div class="container">
       <div class="discription justify-content-center d-flex border z-index-1">
-        <div class="discription-content d-flex flex-column justify-content-around">
-          <h5>Moschino Cheap And Chic</h5>
-          <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
-          <div class="input ">
-            <form class="d-flex justify-content-between" action="get">
+        <div class="discription-content d-flex flex-column justify-content-between">
+          <div class="pagination">
+          </div>
+          <h5 class="mb-5 font-weight-bold text-uppercase">Moschino Cheap And Chic</h5>
+          <div>
+            <p class="discription-black-text text-center">Compellingly actualize fully researched processes before proactive outsourcing. 
+              Progressively syndicate collaborative architectures before cutting-edge serv
+              Completely visualize parallel core competencies rather than exceptional portals. </p>
+            <div class=" d-flex justify-content-around">
+              <p class="discription-text text-uppercase">Material:<span class="font-weight-bold">COTTON</span></p>
+              <p class="discription-text text-uppercase">Designer:<span class="font-weight-bold">BINBURHAN</span></p>
+            </div>
+            <p class="price"><span>$561</span></p>
+          </div>
+          
+          <div class="hr mb-3"></div>
+          <div>
+            <form class="mb-3 d-flex justify-content-between" action="get">
               <div>
-                <p>choose color</p>
-                <input required list="country" name="my-country" placeholder="Bangladesh">
+                <p class="text-left text-uppercase font-weight-bold">choose color</p>
+                <select class="border border-light" name="color" id="select-color" size="1" >
+                  <option value="red">Red</option>
+                  <option value="red">Red</option>
+                  <option value="red">Red</option>
+                  <option value="red">Red</option>
+                </select>
+              </div>
+              <div >
+                <p class="text-left text-uppercase font-weight-bold">choose size</p>
+                <input class="border border-light" required list="country" name="my-country" placeholder="XXL">
                 <datalist id="country">
-                  <option label="Bangladesh" value="Bangladesh"></option>
-                  <option value="Moskau" label="Moskau"></option>
+                  <option label="XS" value="XS"></option>
+                  <option value="S" label="S"></option>
                 </datalist>
               </div>
               <div>
-                <p>choose size</p>
-                <input required list="country" name="my-country" placeholder="Bangladesh">
-                <datalist id="country">
-                  <option label="Bangladesh" value="Bangladesh"></option>
-                  <option value="Moskau" label="Moskau"></option>
-                </datalist>
-              </div>
-              <div>
-                  <p>quantity</p>
-                  <input type="text" value="2">
+                  <p class="text-left text-uppercase font-weight-bold">quantity</p>
+                  <input class="border border-light" type="text" placeholder="2">
               </div>
             </form>
           </div>
-          <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+          <button type="button" class="rounded-0 btn btn-primary btn-lg btn-block"><i class="mr-2 fas fa-cart-arrow-down"></i>Add To Cart</button>
         </div>
       </div>
     </div>
 
     <!---->
-    <div class="container d-flex justify-content-center text-uppercase">
-      <p class="p-like-also font-weight-bold">you may like also</p>
+    <div class="container d-flex justify-content-center text-uppercase ">
+      <p class="p-like-also font-weight-bold mb-5 mt-5">you may like also</p>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-xl-3">
           <div class="img-you-like"><img src="img/img-single-page/you-like1.png"  alt=""></div>
-          <p>BLAZE LEGGINGS <br><span>$52</span></p>
+          <p class="mt-3 pl-3">BLAZE LEGGINGS <br><span>$52</span></p>
         </div>
         <div class="col-xl-3">
           <div class="img-you-like"><img src="img/img-single-page/you-like2.png" alt=""></div>
-          <p>BLAZE LEGGINGS <br><span>$52</span></p>
+          <p class="mt-3 pl-3">ALEXA SWEATER <br><span>$52</span></p>
         </div>
         <div class="col-xl-3">
           <div class="img-you-like"><img src="img/img-single-page/you-like3.png" alt=""></div>
-          <p>BLAZE LEGGINGS <br><span>$52</span></p>
+          <p class="mt-3 pl-3">AGNES TOP<br><span>$52</span></p>
         </div>
         <div class="col-xl-3">
           <div class="img-you-like img-you-like4"><img src="img/img-single-page/you-like4.jpg" alt=""></div>
-          <p>BLAZE LEGGINGS <br><span>$52</span></p>
+          <p class="mt-3 pl-3">SYLVA SWEATER<br><span>$52</span></p>
         </div>
       </div>
     </div>

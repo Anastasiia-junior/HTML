@@ -2,6 +2,9 @@
 $color-pink: #f16d7f;
 $color-grey: #f7f7f7;
 $color-black-grey: #f9f9f9;
+$color-text: #b9b9b9;
+$color-black-text: #7a7a7a;
+$color-base: #222222;
 
 .header{
     .logo{
@@ -9,6 +12,7 @@ $color-black-grey: #f9f9f9;
         align-items: center;
         p{
             font-size: 1.5rem;
+            margin-bottom: 0;
         }
         span{
             color: #f16d7f;
@@ -18,18 +22,99 @@ $color-black-grey: #f9f9f9;
 .browse-button{
     background-color: $color-black-grey;
 }
+// .search-input{
+    position: relative;
+    //a{
+        position: absolute;
+        right: 5px;
+        top: 20%;
+        text-decoration: none;
+        color: $color-text;
+        
+   // }
+//}
 .my-account{
     background-color: $color-pink;
+    a{
+        color: #ffffff;
+    }
 }
 .hr{
     height: 0;
     border-bottom: 1px solid #e6e6e6;
 }
+.nav {
+    a{
+        color: $color-base;
+    }
+}
+.new-arrivals{
+    div{
+        height: inherit;
+    }
+    p{
+        color: $color-pink;
+        font-size: 1.5rem;
+    }
+}
+.breadscrumb-bgc{
+    background-color: inherit;
+    .active{
+        color: $color-pink;
+    }
+    a{
+        color: $color-base;
+    }
+    a:hover{
+        text-decoration: none;
+        color: $color-base;
+    }
+}
 .img-position{
     margin-left: 35%;
+    -o-object-fit: contain;
 }
 .carousel-bg{
     background-color: $color-grey;
+    
+}
+
+.discription{
+    background-color: #fff;
+    height: 728px;
+    padding-top: 50px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+    .discription-content{
+        height: 538px;
+        width: 615px;
+        text-align: center;
+        .discription-black-text{
+            color: $color-black-text;
+        }
+        .discription-text{
+            color: $color-text;
+            span{
+                color: #222222;
+            }
+        }
+        button{
+            background-color: #ffffff;
+            border: 1px solid $color-pink;
+            color: $color-pink;
+        }
+    }
+}
+.pagination{
+    height: 50px;
+}
+.price{
+    color: $color-pink;
+    font-size: 1.8rem;
+}
+#select-color{
+    width: 10rem;
 }
 .img-you-like{
     background-color: $color-grey;
@@ -40,15 +125,14 @@ $color-black-grey: #f9f9f9;
 .img-you-like4{
     padding-left: 0%;
 }
+.col-xl-3 {
+    span{
+        color: $color-pink;
+    }
+}
+.text-pink{
+    color: $color-pink !important; 
+}
 .p-like-also{
     font-size: 1.6rem;
-}
-.discription{
-    height: 728px;
-    padding-bottom: 100px;
-    margin-top: -30px;
-    .discription-content{
-        height: 538px;
-        width: 615px;
-    }
 }
