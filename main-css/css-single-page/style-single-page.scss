@@ -1,54 +1,12 @@
 @import "../css/style.scss";
-$color-pink: #f16d7f;
-$color-grey: #f7f7f7;
-$color-black-grey: #f9f9f9;
-$color-text: #b9b9b9;
-$color-black-text: #7a7a7a;
-$color-base: #222222;
+@import "../variables/style-variables.scss";
+@import "../header/style-header.scss";
+@import "../footer/style-footer.scss";
+@import "../nav-css/nav.scss";
 
-.header{
-    .logo{
-        display: flex;
-        align-items: center;
-        p{
-            font-size: 1.5rem;
-            margin-bottom: 0;
-        }
-        span{
-            color: #f16d7f;
-        }
-    }
-}
-.browse-button{
-    background-color: $color-black-grey;
-}
-// .search-input{
-    position: relative;
-    //a{
-        position: absolute;
-        right: 5px;
-        top: 20%;
-        text-decoration: none;
-        color: $color-text;
-        
-   // }
-//}
-.my-account{
-    background-color: $color-pink;
-    a{
-        color: #ffffff;
-    }
-}
-.hr{
-    height: 0;
-    border-bottom: 1px solid #e6e6e6;
-}
-.nav {
-    a{
-        color: $color-base;
-    }
-}
+
 .new-arrivals{
+    background-color: $new-arrivals-color;
     div{
         height: inherit;
     }

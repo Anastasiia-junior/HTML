@@ -900,6 +900,10 @@ footer section p {
   color: #222222;
 }
 
+.new-arrivals {
+  background-color: #f8f3f4;
+}
+
 .new-arrivals div {
   height: inherit;
 }
@@ -928,6 +932,7 @@ footer section p {
 
 .img-position {
   margin-left: 35%;
+  -o-object-fit: contain;
 }
 
 .carousel-bg {
@@ -988,6 +993,14 @@ footer section p {
 
 .img-you-like4 {
   padding-left: 0%;
+}
+
+.col-xl-3 span {
+  color: #f16d7f;
+}
+
+.text-pink {
+  color: #f16d7f !important;
 }
 
 .p-like-also {

@@ -1,0 +1,29 @@
+@import "../variables/style-variables.scss";
+@import "../header/style-header.scss";
+@import "../footer/style-footer.scss";
+@import "../nav-css/nav.scss";
+
+.new-arrivals{
+    background-color: $new-arrivals-color;
+    min-height: 150px;
+    div{
+        min-height: inherit;
+    }
+    p{
+        color: $color-pink;
+        font-size: 1.5rem;
+    }
+}
+.breadscrumb-bgc{
+    background-color: inherit;
+    .active{
+        color: $color-pink;
+    }
+    a{
+        color: $color-base;
+    }
+    a:hover{
+        text-decoration: none;
+        color: $color-base;
+    }
+}
