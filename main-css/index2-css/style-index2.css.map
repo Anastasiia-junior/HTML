@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AACI,OADG,CACH,KAAK,CAAA;EACD,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAQtB;;AAXL,AAIQ,OAJD,CACH,KAAK,CAGD,CAAC,CAAA;EACG,SAAS,EAAE,MAAM;EACjB,aAAa,EAAE,CAAC;CACnB;;AAPT,AAQQ,OARD,CACH,KAAK,CAOD,IAAI,CAAA;EACA,KAAK,EAAE,OAAO;CACjB;;AAGT,AAAA,cAAc,CAAA;EACV,gBAAgB,EDZD,OAAO;CCazB;;AACD,AAAA,WAAW,CAAA;EACP,gBAAgB,EDjBP,OAAO;CCqBnB;;AALD,AAEI,WAFO,CAEP,CAAC,CAAA;EACG,KAAK,EAAE,OAAO;CACjB;;AAEL,AAAA,GAAG,CAAA;EACC,MAAM,EAAE,CAAC;EACT,aAAa,EAAE,iBAAiB;CACnC;;AEzBD,AACI,IADA,CACA,CAAC,CAAA;EACG,KAAK,EHGA,OAAO;CGFf",
+    "sources": [
+        "style-index2.scss",
+        "../variables/style-variables.scss",
+        "../header/style-header.scss",
+        "../footer/style-footer.scss",
+        "../nav-css/nav.scss"
+    ],
+    "names": [],
+    "file": "style-index2.css"
+}
