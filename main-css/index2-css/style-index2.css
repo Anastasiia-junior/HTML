@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
 .header .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,10 +33,6 @@
 .hr {
   height: 0;
   border-bottom: 1px solid #e6e6e6;
-}
-
-.nav a {
-  color: #222222;
 }
 
 .subscribe-bg {
@@ -163,5 +160,93 @@ footer a {
 
 .copyrights .right div i {
   color: #b9b9b9;
+}
+
+.nav a {
+  color: #222222;
+}
+
+.slider {
+  background-color: #e8e8e8;
+}
+
+.slider-line {
+  border-left: 1rem solid #f16d7f;
+  height: 98px;
+}
+
+.slider-text h2 {
+  font-size: 3.7rem;
+}
+
+.slider-text p {
+  font-size: 2.2rem;
+}
+
+.slider-text p span {
+  color: #f16d7f;
+}
+
+.product-hover {
+  display: none;
+  position: absolute;
+  background-color: #222224;
+  height: 271px;
+  width: 254px;
+  opacity: 0.7;
+}
+
+.product-hover button {
+  background: none;
+  color: #ffffff;
+  padding: 10px 5px;
+  border: 1px solid #ffffff;
+  margin-top: 45%;
+  margin-left: 25%;
+  width: 131px;
+}
+
+.card:hover .product-hover {
+  display: block;
+}
+
+.card {
+  position: relative;
+}
+
+.browse-all {
+  background-color: #f16d7f;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.offer .col-xl-8 {
+  background-image: url(../../img/img-first-page/featured.jpg);
+  height: 528px;
+  padding-top: 10%;
+  padding-left: 3%;
+}
+
+.offer .col-xl-8 div {
+  color: #ffffff;
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+.offer .col-xl-8 div span {
+  color: #f16d7f;
+}
+
+.offer .col-xl-8 div + div {
+  font-size: 2rem;
+}
+
+.offer .col-xl-4 {
+  background-color: #222224;
+}
+
+.offer .offer-text {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style-index2.css.map */

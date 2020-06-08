@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
 .header .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,8 +35,130 @@
 }
 
 .subscribe-bg {
-  min-height: 500px;
+  min-height: 28rem;
   background-image: url(../../img/img-first-page/subscribe-background.jpg);
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  background-position: 50% 20%;
+  background-size: 110%;
+  background-blend-mode: overlay;
+}
+
+.quote {
+  min-height: 28rem;
+}
+
+.quote img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.quote p {
+  font-size: 1rem;
+}
+
+.quote p span {
+  color: #f16d7f;
+  font-size: 1.1rem;
+}
+
+.quote .input-group {
+  width: 26rem;
+}
+
+.quote .input-group input {
+  border-bottom-left-radius: 23px;
+  border-top-left-radius: 23px;
+  height: 3rem;
+  border: none;
+  outline: none;
+  background-color: #e1e1e1;
+}
+
+.quote .input-group button {
+  border-bottom-right-radius: 23px;
+  border-top-right-radius: 23px;
+  background-color: #f16d7f;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 8em;
+}
+
+footer {
+  min-height: 30rem;
+}
+
+footer .row {
+  min-height: inherit;
+}
+
+footer .row .col-xl-4 {
+  min-height: 23rem;
+}
+
+footer .footer-menu {
+  min-width: 23rem;
+}
+
+footer .footer-menu .col-xl-4 {
+  min-height: 23rem;
+}
+
+footer .footer-menu .col-xl-4 .footer-link {
+  height: 200px;
+}
+
+footer h4 {
+  color: #f16d7f;
+}
+
+footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+footer .logo span {
+  color: #f16d7f;
+}
+
+footer a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.copyrights {
+  background-color: #e1e1e1;
+  min-height: 5rem;
+}
+
+.copyrights .container {
+  min-height: inherit;
+}
+
+.copyrights .right div {
+  background-color: #fff;
+}
+
+.copyrights .right div:hover {
+  background-color: #f16d7f;
+}
+
+.copyrights .right div:active {
+  background-color: #f9f9f9;
+}
+
+.copyrights .right div i {
+  color: #b9b9b9;
 }
 
 .nav a {
