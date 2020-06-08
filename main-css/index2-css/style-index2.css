@@ -90,7 +90,7 @@
 }
 
 footer {
-  min-height: 23rem;
+  min-height: 30rem;
 }
 
 footer .row {
@@ -107,6 +107,10 @@ footer .footer-menu {
 
 footer .footer-menu .col-xl-4 {
   min-height: 23rem;
+}
+
+footer .footer-menu .col-xl-4 .footer-link {
+  height: 200px;
 }
 
 footer h4 {
