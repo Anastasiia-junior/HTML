@@ -896,6 +896,11 @@ footer section p {
   border-bottom: 1px solid #e6e6e6;
 }
 
+.subscribe-bg {
+  min-height: 500px;
+  background-image: url(../../img/img-first-page/subscribe-background.jpg);
+}
+
 .nav a {
   color: #222222;
 }
@@ -931,7 +936,6 @@ footer section p {
 }
 
 .img-position {
-  margin-left: 35%;
   -o-object-fit: contain;
 }
 

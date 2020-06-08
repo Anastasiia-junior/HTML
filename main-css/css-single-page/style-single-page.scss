@@ -3,6 +3,7 @@
 @import "../header/style-header.scss";
 @import "../footer/style-footer.scss";
 @import "../nav-css/nav.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 
 .new-arrivals{
@@ -28,13 +29,12 @@
         color: $color-base;
     }
 }
+
 .img-position{
-    margin-left: 35%;
     -o-object-fit: contain;
 }
 .carousel-bg{
     background-color: $color-grey;
-    
 }
 
 .discription{
