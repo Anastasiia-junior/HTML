@@ -165,4 +165,35 @@ footer a {
 .nav a {
   color: #222222;
 }
+
+.new-arrivals {
+  background-color: #f8f3f4;
+  min-height: 150px;
+}
+
+.new-arrivals div {
+  min-height: inherit;
+}
+
+.new-arrivals p {
+  color: #f16d7f;
+  font-size: 1.5rem;
+}
+
+.breadscrumb-bgc {
+  background-color: inherit;
+}
+
+.breadscrumb-bgc .active {
+  color: #f16d7f;
+}
+
+.breadscrumb-bgc a {
+  color: #222222;
+}
+
+.breadscrumb-bgc a:hover {
+  text-decoration: none;
+  color: #222222;
+}
 /*# sourceMappingURL=style-shopping-cart.css.map */

@@ -187,6 +187,48 @@ footer a {
   color: #f16d7f;
 }
 
+.banners {
+  height: 845px;
+}
+
+.banners .banner-text {
+  background-color: #ffffff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.banners .banner-text span {
+  font-size: 2rem;
+  color: #f16d7f;
+}
+
+.banners .banner1 {
+  background-image: url(../../img/img-first-page/banner1.jpg);
+  width: 555px;
+  height: 542px;
+}
+
+.banners .banner2 {
+  background-image: url(../../img/img-first-page/banner2.jpg);
+  width: 555px;
+  height: 260px;
+}
+
+.banners .banner3 {
+  background-image: url(../../img/img-first-page/banner3.jpg);
+  width: 555px;
+  height: 260px;
+}
+
+.banners .banner4 {
+  background-image: url(../../img/img-first-page/banner4.jpg);
+  width: 555px;
+  height: 542px;
+}
+
 .product-hover {
   display: none;
   position: absolute;
@@ -212,6 +254,11 @@ footer a {
 
 .card {
   position: relative;
+}
+
+.card:hover {
+  -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+  box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
 }
 
 .browse-all {
