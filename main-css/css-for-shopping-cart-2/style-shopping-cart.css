@@ -196,4 +196,30 @@ footer a {
   text-decoration: none;
   color: #222222;
 }
+
+.details-header {
+  font-size: 0.9rem;
+}
+
+.details-item {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #949494;
+}
+
+.details-item div p {
+  color: #222222;
+}
+
+.details-item input {
+  width: 50px;
+}
+
+.buttons-cart button {
+  font-size: 0.9rem;
+}
+
+.form div {
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=style-shopping-cart.css.map */

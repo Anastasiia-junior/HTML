@@ -3,6 +3,27 @@
 @import "../footer/style-footer.scss";
 @import "../nav-css/nav.scss";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
-@import "../new-arrivals-css/new-arrivals.scss"
+@import "../new-arrivals-css/new-arrivals.scss";
 
-
+.details-header{
+    font-size: 0.9rem;
+}
+.details-item{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: $dark-text;
+    div p{
+        color: $color-base;
+    }
+    input{
+        width: 50px;
+    }
+}
+.buttons-cart{
+    button{
+        font-size: 0.9rem;
+    }
+}
+.form div{
+    font-size: 1.2rem;
+}
