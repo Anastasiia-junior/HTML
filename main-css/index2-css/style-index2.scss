@@ -4,117 +4,402 @@
 @import "../nav-css/nav.scss";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
-.slider{
-    background-color: #e8e8e8;
-}
-.slider-line{
-    border-left: 1rem solid $color-pink;
-    height: 98px;
-}
-.slider-text{
-    h2{
-        font-size: 3.7rem;
+@media (min-width: 1200px){
+    .slider{
+        background-color: #e8e8e8;
     }
-    p{
-        font-size: 2.2rem;
-        span{
-            color: $color-pink;
+    .slider-line{
+        border-left: 1rem solid $color-pink;
+        height: 98px;
+    }
+    .slider-text{
+        h2{
+            font-size: 3.7rem;
         }
-    }
-}
-//Banners 
-.banners{
-    height: 845px;
-    .banner-text{
-        background-color: $white;
-        width: max-content;
-        font-size: 1.2rem;
-        cursor: pointer;
-        span{
-            font-size: 2rem;
-            color: $color-pink;
-        }
-    }
-    .banner1{
-        background-image: url(../../img/img-first-page/banner1.jpg);
-        width: 555px;
-        height: 542px;
-    }
-    .banner2{
-        background-image: url(../../img/img-first-page/banner2.jpg);
-        width: 555px;
-        height: 260px;
-    }
-    .banner3{
-        background-image: url(../../img/img-first-page/banner3.jpg);
-        width: 555px;
-        height: 260px;
-    }
-    .banner4{
-        background-image: url(../../img/img-first-page/banner4.jpg);
-        width: 555px;
-        height: 542px;
-    }
-}
-
-//Products
-.product-hover{
-    display: none;
-    position: absolute;
-    background-color: #222224;
-    height: 271px;
-    width: 254px;
-    opacity: 0.7;
-    button{
-        background: none;
-        color: #ffffff;
-        padding: 10px 5px;
-        border: 1px solid #ffffff;
-        margin-top: 45%;
-        margin-left: 25%;
-        width: 131px;
-    }
-}
-.card:hover .product-hover{
-    display: block;
-}
-.card{
-    position: relative;
-    &:hover{
-        -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
-        -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
-        box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
-    }
-}
-.browse-all{
-    background-color: $color-pink;
-    color: #ffffff;
-    border: none;
-    outline: none;
-}
-// Offer
-.offer{
-    .col-xl-8{
-        background-image: url(../../img/img-first-page/featured.jpg);
-        height: 528px;
-        padding-top: 10%;
-        padding-left: 3%;
-        div{
-            color: #ffffff;
-            font-size: 3.5rem;
-            line-height: 3rem;
+        p{
+            font-size: 2.2rem;
             span{
                 color: $color-pink;
             }
-            & + div{
+        }
+    }
+    //Banners 
+    .banners{
+        height: 845px;
+        .banner-text{
+            background-color: $white;
+            width: max-content;
+            font-size: 1.2rem;
+            cursor: pointer;
+            span{
                 font-size: 2rem;
+                color: $color-pink;
+            }
+        }
+        .banner1{
+            background-image: url(../../img/img-first-page/banner1.jpg);
+            width: 555px;
+            height: 542px;
+        }
+        .banner2{
+            background-image: url(../../img/img-first-page/banner2.jpg);
+            width: 555px;
+            height: 260px;
+        }
+        .banner3{
+            background-image: url(../../img/img-first-page/banner3.jpg);
+            width: 555px;
+            height: 260px;
+        }
+        .banner4{
+            background-image: url(../../img/img-first-page/banner4.jpg);
+            width: 555px;
+            height: 542px;
+        }
+    }
+    
+    //Products
+    .product-hover{
+        display: none;
+        position: absolute;
+        background-color: #222224;
+        height: 271px;
+        width: 254px;
+        opacity: 0.7;
+        button{
+            background: none;
+            color: #ffffff;
+            padding: 10px 5px;
+            border: 1px solid #ffffff;
+            margin-top: 45%;
+            margin-left: 25%;
+            width: 131px;
+        }
+    }
+    .card:hover .product-hover{
+        display: block;
+    }
+    .card{
+        position: relative;
+        &:hover{
+            -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+        }
+    }
+    .browse-all{
+        background-color: $color-pink;
+        color: #ffffff;
+        border: none;
+        outline: none;
+    }
+    // Offer
+    .offer{
+        .col-xl-8{
+            background-image: url(../../img/img-first-page/featured.jpg);
+            height: 528px;
+            padding-top: 10%;
+            padding-left: 3%;
+            div{
+                color: #ffffff;
+                font-size: 3.5rem;
+                line-height: 3rem;
+                span{
+                    color: $color-pink;
+                }
+                & + div{
+                    font-size: 2rem;
+                }
+            }
+        }
+        .col-xl-4{
+            background-color: $bgc-offer;
+        }
+        .offer-text{
+            color: #ffffff;
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .slider{
+        background-color: #e8e8e8;
+        background-image: url(../../img/img-first-page/man2.jpg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        min-height: 614px;
+        .container-lg{
+            min-height: 614px;
+        }
+    }
+    
+    .slider-text{
+        
+        h2{
+            font-size: 3.7rem;
+        }
+        p{
+            font-size: 2.2rem;
+            span{
+                color: $color-pink;
+            }
+        }
+        .slider-line{
+            border-left: 1rem solid $color-pink;
+            height: 98px;
+        }
+    }
+    //Banners 
+    .banners{
+        max-height: 845px;
+        .banner-text{
+            background-color: $white;
+            width: max-content;
+            font-size: 1.2rem;
+            cursor: pointer;
+            span{
+                font-size: 2rem;
+                color: $color-pink;
+            }
+        }
+        .banner1{
+            background-image: url(../../img/img-first-page/banner1.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 542px;
+        }
+        .banner2{
+            background-image: url(../../img/img-first-page/banner2.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 260px;
+        }
+        .banner3{
+            background-image: url(../../img/img-first-page/banner3.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 260px;
+        }
+        .banner4{
+            background-image: url(../../img/img-first-page/banner4.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 542px;
+        }
+    }
+    
+    //Products
+    .product-hover{
+        display: none;
+        position: absolute;
+        background-color: #222224;
+        height: 271px;
+        width: 254px;
+        opacity: 0.7;
+        button{
+            background: none;
+            color: #ffffff;
+            padding: 10px 5px;
+            border: 1px solid #ffffff;
+            margin-top: 45%;
+            margin-left: 25%;
+            width: 131px;
+        }
+    }
+    .card:hover .product-hover{
+        display: block;
+    }
+    .card{
+        position: relative;
+        &:hover{
+            -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+        }
+    }
+    .browse-all{
+        background-color: $color-pink;
+        color: #ffffff;
+        border: none;
+        outline: none;
+    }
+    // Offer
+    .offer{
+        .col-xl-8{
+            background-image: url(../../img/img-first-page/featured.jpg);
+            height: 528px;
+            padding-top: 10%;
+            padding-left: 3%;
+            div{
+                color: #ffffff;
+                font-size: 3.5rem;
+                line-height: 3rem;
+                span{
+                    color: $color-pink;
+                }
+                & + div{
+                    font-size: 2rem;
+                }
+            }
+        }
+        .col-xl-4{
+            background-color: $bgc-offer;
+        }
+        .offer-text{
+            color: #ffffff;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .slider{
+        background-color: #e8e8e8;
+        background-image: url(../../img/img-first-page/man2.jpg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        min-height: 614px;
+        .container-lg{
+            min-height: 614px;
+        }
+    }
+    .slider-line{
+        border-left: 1rem solid $color-pink;
+        height: 98px;
+    }
+    .slider-text{
+        h2{
+            font-size: 3.7rem;
+        }
+        p{
+            font-size: 2.2rem;
+            span{
+                color: $color-pink;
             }
         }
     }
-    .col-xl-4{
-        background-color: $bgc-offer;
+    //Banners 
+    .banners{
+        height: 845px;
+        .banner-text{
+            background-color: $white;
+            width: max-content;
+            font-size: 1.2rem;
+            cursor: pointer;
+            span{
+                font-size: 2rem;
+                color: $color-pink;
+            }
+        }
+        .banner1{
+            background-image: url(../../img/img-first-page/banner1.jpg);
+            width: 555px;
+            height: 542px;
+        }
+        .banner2{
+            background-image: url(../../img/img-first-page/banner2.jpg);
+            width: 555px;
+            height: 260px;
+        }
+        .banner3{
+            background-image: url(../../img/img-first-page/banner3.jpg);
+            width: 555px;
+            height: 260px;
+        }
+        .banner4{
+            background-image: url(../../img/img-first-page/banner4.jpg);
+            width: 555px;
+            height: 542px;
+        }
     }
-    .offer-text{
+    
+    //Products
+    .product-hover{
+        display: none;
+        position: absolute;
+        background-color: #222224;
+        height: 271px;
+        width: 254px;
+        opacity: 0.7;
+        button{
+            background: none;
+            color: #ffffff;
+            padding: 10px 5px;
+            border: 1px solid #ffffff;
+            margin-top: 45%;
+            margin-left: 25%;
+            width: 131px;
+        }
+    }
+    .card:hover .product-hover{
+        display: block;
+    }
+    .card{
+        position: relative;
+        &:hover{
+            -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+        }
+    }
+    .browse-all{
+        background-color: $color-pink;
         color: #ffffff;
+        border: none;
+        outline: none;
+    }
+    // Offer
+    .offer{
+        .col-xl-8{
+            background-image: url(../../img/img-first-page/featured.jpg);
+            height: 528px;
+            padding-top: 10%;
+            padding-left: 3%;
+            div{
+                color: #ffffff;
+                font-size: 3.5rem;
+                line-height: 3rem;
+                span{
+                    color: $color-pink;
+                }
+                & + div{
+                    font-size: 2rem;
+                }
+            }
+        }
+        .col-xl-4{
+            background-color: $bgc-offer;
+        }
+        .offer-text{
+            color: #ffffff;
+        }
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .slider{
+        background-color: #e8e8e8;
+        background-image: url(../../img/img-first-page/man2.jpg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        min-height: 614px;
+        background-blend-mode: overlay;
+        background-size: 111%;
+        
+        .container-lg{
+            min-height: 614px;
+        }
+    }
+    .slider-line{
+        border-left: 1rem solid $color-pink;
+        height: 98px;
+    }
+    .slider-text{
+        
+        h2{
+            font-size: 3.7rem;
+        }
+        p{
+            font-size: 2.2rem;
+            span{
+                color: $color-pink;
+            }
+        }
     }
 }
