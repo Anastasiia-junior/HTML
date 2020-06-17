@@ -59,12 +59,26 @@
     }
     
     //Products
+    .card-deck{
+        .w-100{
+            display: none;
+        }
+        .card{
+            
+            position: relative;
+            &:hover{
+                -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+                -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+                box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            }
+        }
+    }
     .product-hover{
         display: none;
         position: absolute;
         background-color: #222224;
-        height: 271px;
-        width: 254px;
+        width: 100%;
+        height: 77%;
         opacity: 0.7;
         button{
             background: none;
@@ -79,14 +93,7 @@
     .card:hover .product-hover{
         display: block;
     }
-    .card{
-        position: relative;
-        &:hover{
-            -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
-            -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
-            box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
-        }
-    }
+    
     .browse-all{
         background-color: $color-pink;
         color: #ffffff;
@@ -95,7 +102,7 @@
     }
     // Offer
     .offer{
-        .col-xl-8{
+        .col-lg-8{
             background-image: url(../../img/img-first-page/featured.jpg);
             height: 528px;
             padding-top: 10%;
@@ -112,7 +119,7 @@
                 }
             }
         }
-        .col-xl-4{
+        .col-lg-4{
             background-color: $bgc-offer;
         }
         .offer-text{
@@ -164,36 +171,43 @@
         .banner1{
             background-image: url(../../img/img-first-page/banner1.jpg);
             background-repeat: no-repeat;
-            width: 555px;
+            width: 455px;
             height: 542px;
+            background-position: right center;
         }
         .banner2{
             background-image: url(../../img/img-first-page/banner2.jpg);
             background-repeat: no-repeat;
-            width: 555px;
+            background-position: center center;
+            width: 455px;
             height: 260px;
         }
         .banner3{
             background-image: url(../../img/img-first-page/banner3.jpg);
             background-repeat: no-repeat;
-            width: 555px;
+            width: 455px;
             height: 260px;
         }
         .banner4{
             background-image: url(../../img/img-first-page/banner4.jpg);
             background-repeat: no-repeat;
-            width: 555px;
+            width: 455px;
             height: 542px;
         }
     }
     
     //Products
+    .card-deck{
+        .w-100{
+            display: none;
+        }
+    }
     .product-hover{
         display: none;
         position: absolute;
         background-color: #222224;
-        height: 271px;
-        width: 254px;
+        width: 100%;
+        height: 77%;
         opacity: 0.7;
         button{
             background: none;
@@ -224,7 +238,7 @@
     }
     // Offer
     .offer{
-        .col-xl-8{
+        .col-lg-8{
             background-image: url(../../img/img-first-page/featured.jpg);
             height: 528px;
             padding-top: 10%;
@@ -241,7 +255,7 @@
                 }
             }
         }
-        .col-xl-4{
+        .col-lg-4{
             background-color: $bgc-offer;
         }
         .offer-text{
@@ -277,14 +291,15 @@
     }
     //Banners 
     .banners{
-        height: 845px;
+        min-height: 845px;
+        align-items: center;
         .banner-text{
             background-color: $white;
             width: max-content;
-            font-size: 1.2rem;
+            font-size: 1.7rem;
             cursor: pointer;
             span{
-                font-size: 2rem;
+                font-size: 3rem;
                 color: $color-pink;
             }
         }
@@ -297,6 +312,7 @@
             background-image: url(../../img/img-first-page/banner2.jpg);
             width: 555px;
             height: 260px;
+            margin-bottom: 1rem;
         }
         .banner3{
             background-image: url(../../img/img-first-page/banner3.jpg);
@@ -311,12 +327,17 @@
     }
     
     //Products
+    .card-deck{
+        .w-100{
+            display: none;
+        }
+    }
     .product-hover{
         display: none;
         position: absolute;
         background-color: #222224;
-        height: 271px;
-        width: 254px;
+        width: 100%;
+        height: 77%;
         opacity: 0.7;
         button{
             background: none;
@@ -347,24 +368,25 @@
     }
     // Offer
     .offer{
-        .col-xl-8{
+        .col-md-7{
             background-image: url(../../img/img-first-page/featured.jpg);
             height: 528px;
             padding-top: 10%;
             padding-left: 3%;
+            
             div{
                 color: #ffffff;
-                font-size: 3.5rem;
-                line-height: 3rem;
+                font-size: 4rem;
+                line-height: 3.5rem;
                 span{
                     color: $color-pink;
                 }
                 & + div{
-                    font-size: 2rem;
+                    font-size: 2.5rem;
                 }
             }
         }
-        .col-xl-4{
+        .col-md-5{
             background-color: $bgc-offer;
         }
         .offer-text{
@@ -381,7 +403,6 @@
         min-height: 614px;
         background-blend-mode: overlay;
         background-size: 111%;
-        
         .container-lg{
             min-height: 614px;
         }
@@ -402,13 +423,101 @@
             }
         }
     }
+    //Banners 
+    .banners{
+        min-height: 845px;
+        justify-content: center;
+        align-items: center;
+        .banner-text{
+            background-color: $white;
+            width: max-content;
+            font-size: 1.7rem;
+            cursor: pointer;
+            span{
+                font-size: 3rem;
+                color: $color-pink;
+            }
+        }
+        .banner1{
+            background-image: url(../../img/img-first-page/banner1.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 542px;
+            padding-top: 40px;
+        }
+        .banner2{
+            background-image: url(../../img/img-first-page/banner2.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 260px;
+            padding-top: 40px;
+            margin-bottom: 1rem;
+        }
+        .banner3{
+            background-image: url(../../img/img-first-page/banner3.jpg);
+            background-repeat: no-repeat;
+            width: 555px;
+            height: 260px;
+            padding-top: 40px;
+        }
+        .banner4{
+            background-image: url(../../img/img-first-page/banner4.jpg);
+            background-repeat: no-repeat;
+            background-position: 89% 0%;
+            width: 555px;
+            height: 542px;
+            padding-top: 40px;
+        }
+    }
+    //Products
+    .card-deck{
+        .w-100{
+            display: block;
+        }
+        .card{
+            position: relative;
+            margin-bottom: 1.5rem;
+            &:hover{
+                -webkit-box-shadow: 3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+                -moz-box-shadow:    3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+                box-shadow:         3px 4px 11px 0px rgba(50, 50, 50, 0.78);
+            }
+        }
+    }
+    .product-hover{
+        display: none;
+        position: absolute;
+        background-color: #222224;
+        width: 100%;
+        height: 77%;
+        opacity: 0.7;
+        button{
+            background: none;
+            color: #ffffff;
+            padding: 10px 5px;
+            border: 1px solid #ffffff;
+            margin-top: 45%;
+            margin-left: 25%;
+            width: 131px;
+        }
+    }
+    .card:hover .product-hover{
+        display: block;
+    }
+    
+    .browse-all{
+        background-color: $color-pink;
+        color: #ffffff;
+        border: none;
+        outline: none;
+    }
     // Offer
     .offer{
-        .col-xl-8{
+        .col-md-7{
             background-image: url(../../img/img-first-page/featured.jpg);
             background-repeat: no-repeat;
             min-height: 400px;
-            padding-top: 37%;
+            padding-top: 30%;
             padding-left: 10%;
             background-blend-mode: overlay;
             background-color: #e8e8e8;
@@ -424,7 +533,7 @@
                 }
             }
         }
-        .col-xl-4{
+        .col-md-5{
             background-color: $bgc-offer;
         }
         .offer-text{

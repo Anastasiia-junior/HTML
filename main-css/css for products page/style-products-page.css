@@ -90,7 +90,7 @@
 }
 
 .quote .input-group {
-  width: 26rem;
+  max-width: 26rem;
 }
 
 .quote .input-group input {
@@ -189,6 +189,38 @@ footer a {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .subscribe-bg {
+    min-height: 28rem;
+    background-image: url(../../img/img-first-page/subscribe-background.jpg);
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    background-position: 50% 20%;
+    background-size: 110%;
+    background-blend-mode: overlay;
+  }
+  .quote {
+    min-height: 15rem;
+  }
+  .quote img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .quote p {
+    font-size: 1rem;
+  }
+  .quote p span {
+    color: #f16d7f;
+    font-size: 1.1rem;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-link {
+    margin-bottom: 1rem;
+  }
+  footer a {
+    font-size: 1.4rem;
+  }
   .copyrights {
     background-color: #e1e1e1;
     min-height: 5rem;
