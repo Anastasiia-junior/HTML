@@ -23,7 +23,7 @@
         }
     }
     .input-group{
-        width: 26rem;
+        max-width: 26rem;
         
         input{
             border-bottom-left-radius: 23px;
@@ -103,6 +103,38 @@ footer{
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
+    .subscribe-bg{
+        min-height: 28rem;
+        background-image: url(../../img/img-first-page/subscribe-background.jpg);
+        background-repeat: no-repeat;
+        background-color:  #ccc;
+        background-position: 50% 20%;
+        background-size: 110%;
+        background-blend-mode: overlay;
+    }
+    .quote{
+        min-height: 15rem;
+        img{
+            width: 5rem;
+            height: 5rem;
+        }
+        p{
+            font-size: 1rem;
+            span{
+                color: $color-pink;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    footer{
+        text-align: center;
+        .footer-link{
+            margin-bottom: 1rem;
+        }
+        a{
+            font-size: 1.4rem;
+        }
+    }
     .copyrights{
         background-color: $bgc-input;
         min-height: 5rem;

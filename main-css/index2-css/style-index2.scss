@@ -402,4 +402,33 @@
             }
         }
     }
+    // Offer
+    .offer{
+        .col-xl-8{
+            background-image: url(../../img/img-first-page/featured.jpg);
+            background-repeat: no-repeat;
+            min-height: 400px;
+            padding-top: 37%;
+            padding-left: 10%;
+            background-blend-mode: overlay;
+            background-color: #e8e8e8;
+            div{
+                color: $bgc-offer;
+                font-size: 5rem;
+                line-height: 4rem;
+                span{
+                    color: $color-pink;
+                }
+                & + div{
+                    font-size: 3rem;
+                }
+            }
+        }
+        .col-xl-4{
+            background-color: $bgc-offer;
+        }
+        .offer-text{
+            color: #ffffff;
+        }
+    }
 }
