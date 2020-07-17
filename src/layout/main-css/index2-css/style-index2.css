@@ -87,7 +87,7 @@
 
 .subscribe-bg {
   min-height: 28rem;
-  background-image: url(../../img/img-first-page/subscribe-background.jpg);
+  background-image: url(../../../assets/img/img-first-page/subscribe-background.jpg);
   background-repeat: no-repeat;
   background-color: #ccc;
   background-position: 50% 20%;
@@ -215,7 +215,7 @@ footer a {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .subscribe-bg {
     min-height: 28rem;
-    background-image: url(../../img/img-first-page/subscribe-background.jpg);
+    background-image: url(../../../assets/img/img-first-page/subscribe-background.jpg);
     background-repeat: no-repeat;
     background-color: #ccc;
     background-position: 50% 20%;
@@ -314,22 +314,22 @@ footer a {
     color: #f16d7f;
   }
   .banners .banner1 {
-    background-image: url(../../img/img-first-page/banner1.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner1.jpg);
     width: 555px;
     height: 542px;
   }
   .banners .banner2 {
-    background-image: url(../../img/img-first-page/banner2.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner2.jpg);
     width: 555px;
     height: 260px;
   }
   .banners .banner3 {
-    background-image: url(../../img/img-first-page/banner3.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner3.jpg);
     width: 555px;
     height: 260px;
   }
   .banners .banner4 {
-    background-image: url(../../img/img-first-page/banner4.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner4.jpg);
     width: 555px;
     height: 542px;
   }
@@ -370,7 +370,7 @@ footer a {
     outline: none;
   }
   .offer .col-lg-8 {
-    background-image: url(../../img/img-first-page/featured.jpg);
+    background-image: url(../../../assets/img/img-first-page/featured.jpg);
     height: 528px;
     padding-top: 10%;
     padding-left: 3%;
@@ -397,7 +397,7 @@ footer a {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .slider {
     background-color: #e8e8e8;
-    background-image: url(../../img/img-first-page/man2.jpg);
+    background-image: url(../../../assets/img/img-first-page/man2.jpg);
     background-repeat: no-repeat;
     background-position: center right;
     min-height: 614px;
@@ -434,27 +434,27 @@ footer a {
     color: #f16d7f;
   }
   .banners .banner1 {
-    background-image: url(../../img/img-first-page/banner1.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner1.jpg);
     background-repeat: no-repeat;
     width: 455px;
     height: 542px;
     background-position: right center;
   }
   .banners .banner2 {
-    background-image: url(../../img/img-first-page/banner2.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     width: 455px;
     height: 260px;
   }
   .banners .banner3 {
-    background-image: url(../../img/img-first-page/banner3.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner3.jpg);
     background-repeat: no-repeat;
     width: 455px;
     height: 260px;
   }
   .banners .banner4 {
-    background-image: url(../../img/img-first-page/banner4.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner4.jpg);
     background-repeat: no-repeat;
     width: 455px;
     height: 542px;
@@ -496,7 +496,7 @@ footer a {
     outline: none;
   }
   .offer .col-lg-8 {
-    background-image: url(../../img/img-first-page/featured.jpg);
+    background-image: url(../../../assets/img/img-first-page/featured.jpg);
     height: 528px;
     padding-top: 10%;
     padding-left: 3%;
@@ -523,7 +523,7 @@ footer a {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .slider {
     background-color: #e8e8e8;
-    background-image: url(../../img/img-first-page/man2.jpg);
+    background-image: url(../../../assets/img/img-first-page/man2.jpg);
     background-repeat: no-repeat;
     background-position: center right;
     min-height: 614px;
@@ -563,23 +563,23 @@ footer a {
     color: #f16d7f;
   }
   .banners .banner1 {
-    background-image: url(../../img/img-first-page/banner1.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner1.jpg);
     width: 555px;
     height: 542px;
   }
   .banners .banner2 {
-    background-image: url(../../img/img-first-page/banner2.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner2.jpg);
     width: 555px;
     height: 260px;
     margin-bottom: 1rem;
   }
   .banners .banner3 {
-    background-image: url(../../img/img-first-page/banner3.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner3.jpg);
     width: 555px;
     height: 260px;
   }
   .banners .banner4 {
-    background-image: url(../../img/img-first-page/banner4.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner4.jpg);
     width: 555px;
     height: 542px;
   }
@@ -620,7 +620,7 @@ footer a {
     outline: none;
   }
   .offer .col-md-7 {
-    background-image: url(../../img/img-first-page/featured.jpg);
+    background-image: url(../../../assets/img/img-first-page/featured.jpg);
     height: 528px;
     padding-top: 10%;
     padding-left: 3%;
@@ -647,7 +647,7 @@ footer a {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .slider {
     background-color: #e8e8e8;
-    background-image: url(../../img/img-first-page/man2.jpg);
+    background-image: url(../../../assets/img/img-first-page/man2.jpg);
     background-repeat: no-repeat;
     background-position: center right;
     min-height: 614px;
@@ -692,14 +692,14 @@ footer a {
     color: #f16d7f;
   }
   .banners .banner1 {
-    background-image: url(../../img/img-first-page/banner1.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner1.jpg);
     background-repeat: no-repeat;
     width: 555px;
     height: 542px;
     padding-top: 40px;
   }
   .banners .banner2 {
-    background-image: url(../../img/img-first-page/banner2.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner2.jpg);
     background-repeat: no-repeat;
     width: 555px;
     height: 260px;
@@ -707,14 +707,14 @@ footer a {
     margin-bottom: 1rem;
   }
   .banners .banner3 {
-    background-image: url(../../img/img-first-page/banner3.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner3.jpg);
     background-repeat: no-repeat;
     width: 555px;
     height: 260px;
     padding-top: 40px;
   }
   .banners .banner4 {
-    background-image: url(../../img/img-first-page/banner4.jpg);
+    background-image: url(../../../assets/img/img-first-page/banner4.jpg);
     background-repeat: no-repeat;
     background-position: 89% 0%;
     width: 555px;
